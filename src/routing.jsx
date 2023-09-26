@@ -4,8 +4,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Coins from "./pages/Coins";
 import CoinsShow from "./pages/CoinsShow";
-import Exchange from "./pages/Exchange";
 import ExchangeShow from "./pages/ExchangeShow";
+import MasterPage from "./layouts/MasterPage";
+import Exchanges from "./pages/Exchanges";
 
 export const routers = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ export const routers = createBrowserRouter([
     path: "/exchanges",
     element: <MasterPage />,
     children: [
-      { path: "", element: <Exchange /> },
+      { path: "", element: <Exchanges /> },
       { path: ":id", element: <ExchangeShow /> },
     ],
   },

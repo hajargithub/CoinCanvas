@@ -1,12 +1,12 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Footer from "../shared/Footer";
-import Navbar from "../shared/Navbar";
+import Footer from "../components/shared/Footer";
+import NavBar from "../components/shared/NavBar";
 
 function MasterPage() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <div className="container my-5">
         <main>
           <Outlet />
