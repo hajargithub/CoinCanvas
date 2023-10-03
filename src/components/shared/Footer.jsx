@@ -7,11 +7,11 @@ function Footer() {
         Copyright &copy; 2023 All right are reserved to :
         <a
           className="text-white"
-          href="https://github.com/hajargithub/React-app-trainaing"
+          href="https://github.com/hajargithub/CoinCanvas"
           target="_blank"
           rel="noreferrer"
         >
-          Hajar Harkaoui
+          <span className="text-primary">Hajar Harkaoui</span>
         </a>
       </div>
     </>
